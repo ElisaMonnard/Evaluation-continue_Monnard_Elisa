@@ -120,3 +120,7 @@ button p {
 .Save svg:hover {
   fill: var(--Primary-500, red);
 }
+
+.Save:hover {
+  border: 1px solid var(--Primary-500, red);
+}
