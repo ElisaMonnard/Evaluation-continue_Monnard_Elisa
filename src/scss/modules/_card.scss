@@ -1,11 +1,18 @@
+:root {
+  --Primary-50: #f5f5f5;
+  --Primary-500: #b4bbc0;
+  --Primary-600: #6c6f72;
+  --Primary-800: #343434;
+  --Primary-900: #000000;
+  --second: #e63946;
+}
+
 .card {
   display: inline-flex;
   flex-direction: column;
-  margin: 6rem;
-
-  padding: 0.5rem;
-
   align-items: center;
+  margin: 6rem;
+  padding: 0.5rem;
   gap: 1rem;
   border-radius: 2rem;
   background: var(--Primary-0, #fff);
@@ -14,21 +21,17 @@
   color: #000;
   line-height: normal;
   font-style: normal;
-  font: size 0.875rem;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
 }
 .button:hover {
   background: var(--Primary-800, #343434);
 }
 
 .button:disabled {
-  background: var(--Primary-100, #bbb);
+  background: var(--Primary-100);
   cursor: not-allowed;
 }
 img {
   width: 100%;
-  height: 17.75rem;
   aspect-ratio: 1/1;
   object-fit: cover;
 }
@@ -57,7 +60,7 @@ img {
 
 .Title p {
   align-self: stretch;
-  color: var(--Primary-600, #6c6f72);
+  color: var(--Primary-600);
   font-size: 0.875rem;
   font-weight: 400;
 }
@@ -86,16 +89,12 @@ img {
   font-weight: 400;
 }
 
-strong {
-  font-size: 0.875rem;
+.Info strong {
   font-weight: 600;
 }
 
 .Airport {
-  display: flex;
   width: 3.375rem;
-  align-items: center;
-  gap: 0.5rem;
 }
 
 .CTAs {
@@ -112,6 +111,11 @@ button {
   align-items: center;
   flex: 1 0 0;
   border-radius: 0.75rem;
+  font: size 0.875rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  background: var(--Primary-900);
+  color: var(--Primary-50);
 }
 
 button p {
@@ -128,12 +132,17 @@ button p {
   aspect-ratio: 1/1;
   border-radius: 4rem;
   border: 1px solid var(--Primary-500, #b4bbc0);
+  transition: border-color 0.2s ease;
 }
 
-.Save svg:hover {
-  fill: var(--Primary-500, red);
+.CTAs .Save svg path {
+  transition: stroke 0.2s ease;
 }
 
-.Save:hover {
-  border: 1px solid var(--Primary-500, red);
+.CTAs .Save:hover {
+  border-color: var(--second, red);
+}
+
+.CTAs .Save:hover svg path {
+  stroke: var(--second, red);
 }
