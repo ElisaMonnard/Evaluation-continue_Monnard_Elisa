@@ -1,0 +1,118 @@
+.card {
+  margin: 6rem;
+  display: inline-flex;
+  padding: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 2rem;
+  background: var(--Primary-0, #fff);
+  box-shadow: 0 8px 10px 2px rgba(0, 0, 0, 0.15);
+  font-family: Montserrat;
+  color: #000;
+  line-height: normal;
+  font-style: normal;
+}
+
+img {
+  width: 17.75rem;
+  height: 17.75rem;
+  aspect-ratio: 1/1;
+}
+
+.Content {
+  display: flex;
+  width: 17.75rem;
+  padding: 0.25rem 0.5rem 0.75rem 0.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.Title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.Title h2 {
+  align-self: stretch;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.Title p {
+  align-self: stretch;
+  color: #6c6f72;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.Informations {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  align-self: stretch;
+}
+
+.Info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.Info svg {
+  width: 1rem;
+  height: 1rem;
+  aspect-ratio: 1/1;
+}
+
+.Info p {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+strong {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.Airport {
+  display: flex;
+  width: 3.375rem;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.CTAs {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.25rem;
+  align-self: stretch;
+}
+
+button {
+  display: flex;
+  padding: 0.5rem 0.75rem;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 0;
+  border-radius: 0.75rem;
+}
+
+button p {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.CTAs .Save {
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+  border-radius: 4rem;
+  border: 1px solid var(--Primary-500, #b4bbc0);
+}
