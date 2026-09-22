@@ -2,6 +2,7 @@
   --Primary-900-50: rgba(0, 0, 0, 0.5);
   --Primary-900-: #000;
   --Primary-0: #fff;
+  --Background: rgba(255, 255, 255, 0.1);
 }
 .navigation {
   display: inline-flex;
@@ -30,6 +31,6 @@ a {
   border-radius: 2rem;
 }
 
-a :hover {
-  background: rgba(255, 255, 255, 0.1);
+.nav-item:hover {
+  background: var(--Background);
 }
