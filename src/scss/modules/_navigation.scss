@@ -1,6 +1,7 @@
 :root {
   --Primary-900-50: rgba(0, 0, 0, 0.5);
   --Primary-900-: #000;
+  --Primary-0: #fff;
 }
 .navigation {
   display: inline-flex;
@@ -11,11 +12,24 @@
 }
 
 a {
-  color: var(--Primary-900, #000);
+  color: var(--Primary-900);
   font-family: Montserrat;
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav-item {
+  padding: 1rem 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 2rem;
+}
+
+a :hover {
+  background: rgba(255, 255, 255, 0.1);
 }
