@@ -1,0 +1,21 @@
+:root {
+  --Primary-900-50: rgba(0, 0, 0, 0.5);
+  --Primary-900-: #000;
+}
+.navigation {
+  display: inline-flex;
+  padding: 0.25rem;
+  align-items: center;
+  border-radius: 3rem;
+  background-color: var(--Primary-900-50);
+}
+
+a {
+  color: var(--Primary-900, #000);
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
