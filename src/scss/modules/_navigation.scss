@@ -28,6 +28,7 @@
   padding: 1rem 2rem;
   border-radius: 2rem;
   color: var(--Primary-0);
+  gap: 0.625rem;
   font-family: Montserrat, sans-serif;
   font-size: 1.25rem;
   font-style: normal;
@@ -38,11 +39,9 @@
 
 .nav-item:hover {
   background: var(--Background-hover);
-  color: var(--Primary-0);
-  border-radius: 2rem;
 }
 
 .nav-item.active {
-  background: var(--Primary-0, #fff);
+  background: var(--Primary-0);
   color: var(--Primary-900);
 }
