@@ -3,6 +3,7 @@
   --Primary-900: #000;
   --Primary-0: #fff;
   --Background: rgba(255, 255, 255, 0.1);
+  --Background-hover: rgba(255, 255, 255, 0.2);
 }
 .navigation {
   display: inline-flex;
@@ -12,25 +13,31 @@
   background-color: var(--Primary-900-50);
 }
 
-a {
-  color: var(--Primary-900);
-  font-family: Montserrat;
+.navigation ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.navigation a {
+  text-decoration: none;
+}
+
+.nav-item {
+  display: block;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  color: var(--primary-0);
+  font-family: Montserrat, sans-serif;
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-decoration: none;
   white-space: nowrap;
 }
 
-.nav-item {
-  padding: 1rem 2rem;
-  justify-content: center;
-  align-items: center;
-  gap: 0.625rem;
+.nav-item:hover {
+  background: var(--Background-hover);
   border-radius: 2rem;
 }
 
-.nav-item:hover {
-  background: var(--Background);
-}
