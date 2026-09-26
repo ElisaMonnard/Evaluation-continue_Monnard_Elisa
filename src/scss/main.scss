@@ -5,3 +5,10 @@
 @import "modules/_cta.scss";
 @import "modules/_card";
 @import "modules/_navigation";
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3rem;
+}
