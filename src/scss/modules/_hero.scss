@@ -1,0 +1,12 @@
+.hero {
+  background: url("../assets/Hero.webp") lightgray 50% / cover no-repeat;
+
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  padding: 2.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
