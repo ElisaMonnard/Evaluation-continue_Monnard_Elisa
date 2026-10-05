@@ -10,3 +10,32 @@
   align-items: center;
   gap: 0.625rem;
 }
+
+.container {
+  display: flex;
+  padding: 2.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 2rem;
+  border: 4px solid var(--Primary-600, #6c6f72);
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.625rem;
+  align-self: stretch;
+}
+
+h1 {
+  color: var(--Primary-0, #fff);
+  font-family: Lobster;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
