@@ -94,7 +94,7 @@ img {
   align-self: stretch;
 }
 
-button {
+.CTAs button {
   display: flex;
   padding: 0.5rem 0.75rem;
   justify-content: center;
@@ -108,7 +108,7 @@ button {
   color: var(--Primary-50, #f5f5f5);
 }
 
-button p {
+.CTAs button p {
   font-size: 0.875rem;
   font-weight: 400;
 }

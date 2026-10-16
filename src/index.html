@@ -129,7 +129,7 @@
     <div class="grid-container">
       <main>
         <div class="section search-info">
-          <h2>Search info</h2>
+          <h2 class="data title">Search info</h2>
           <div class="data from-to">
             <p>From <strong>Geneva</strong></p>
             <p>To <strong>San Francisco</strong></p>
@@ -141,9 +141,22 @@
           <div class="data passengers">
             <p><strong>1</strong>passenger</p>
           </div>
-          <button>Reset search</button>
+          <button class="reset-search">Reset search</button>
         </div>
-        <div class="section search-results"></div>
+        <div class="section search-results">
+          <include src="./components/card.html"></include>
+          <include src="./components/card.html"></include>
+          <include src="./components/card.html"></include>
+          <include src="./components/card.html"></include>
+          <include src="./components/card.html"></include>
+          <include src="./components/card.html"></include>
+          <include src="./components/card.html"></include>
+          <include src="./components/card.html"></include>
+          <include src="./components/card.html"></include>
+          <div class="cta">
+            <button class="see-more">See more results</button>
+          </div>
+        </div>
       </main>
     </div>
     <script src="js/main.js" type="module"></script>
